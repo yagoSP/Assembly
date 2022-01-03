@@ -4,10 +4,11 @@ segment .data
         std_out         equ 0x1
         sys_exit        equ 0x1
         return          equ 0x0
+        lbreak          equ 0xA
         
         
 section .data
-        msg   db    'Hello Assembler!', 0AH
+        msg   db    'Hello Assembler!', lbreak
         tam   equ   $-msg
 
 section .text
@@ -27,7 +28,7 @@ _start:
 ;YagoSP // Primeiro código em assembly
 ;'Hello Assembler' 
 ;Criado 19/12/2021
-;Editado 03/01/2022 (15:44)
+;Editado 03/01/2022 (15:45)
 
 ;nasm -f elf hello.asm
 ;ld -m elf_i386 -s -o hello hello.o
