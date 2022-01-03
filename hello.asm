@@ -27,7 +27,7 @@ _start:
 ;YagoSP // Primeiro código em assembly
 ;'Hello Assembler' 
 ;Criado 19/12/2021
-;Editado 03/01/2022
+;Editado 03/01/2022 (15:44)
 
 ;nasm -f elf hello.asm
 ;ld -m elf_i386 -s -o hello hello.o
