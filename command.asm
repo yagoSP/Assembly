@@ -21,3 +21,6 @@ _start:
 	mov 	eax, 1
 	mov		ebx, 0
 	int 	0x80
+;Criado por YagoSP 
+;OS = Linux Mint Sarah
+;18/02/2022 23:54 [FR]
