@@ -1,7 +1,7 @@
 section .data
 	ln1		db		"nasm -f elf  archive.asm", 0xA
 	tam1 	equ		$-ln1
-	ln2		db		"ld -m elf_i386 -s -o archive archive.o"
+	ln2		db		"ld -m elf_i386 -s -o archive archive.o", 0xA
 	tam2 	db		$-ln2
 section .text
 global _start
