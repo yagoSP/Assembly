@@ -6,7 +6,7 @@ section .data
 section .text
 global _start
 _start:
-	mov		eax, 4
+	mov	eax, 4
 	mov 	ebx, 1
 	mov 	ecx, ln1
 	mov 	edx, tam1
@@ -24,3 +24,4 @@ _start:
 ;Criado por YagoSP 
 ;OS = Linux Mint Sarah
 ;18/02/2022 23:54 [FR]
+;EDT 17/12/2022 11:18 [SA]
