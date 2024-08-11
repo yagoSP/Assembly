@@ -51,3 +51,4 @@ exit:
     mov    ebx, 0
     int    0x80
     
+;Ainda não funfa :)
